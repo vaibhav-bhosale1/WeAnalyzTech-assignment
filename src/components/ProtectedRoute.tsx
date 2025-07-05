@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import Login from '../pages/auth/Login';
+import Login from '../../pages/auth/Login';
 
 interface ProtectedRouteProps {
   children: React.ReactNode;

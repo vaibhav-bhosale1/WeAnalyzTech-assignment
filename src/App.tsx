@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
-import ProtectedRoute from '../components/ProtectedRoute';
-import Layout from '../components/Layout';
-import AdminLayout from '../components/AdminLayout';
-import OperationLayout from '../components/OperationLayout';
-import TechnicalLayout from '../components/TechnicalLayout';
+import ProtectedRoute from './components/ProtectedRoute';
+import Layout from './components/Layout';
+import AdminLayout from './components/AdminLayout';
+import OperationLayout from './components/OperationLayout';
+import TechnicalLayout from './components/TechnicalLayout';
 
 // Auth pages
 import Login from './pages/auth/Login';
