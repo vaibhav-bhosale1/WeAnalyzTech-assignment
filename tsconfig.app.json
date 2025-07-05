@@ -20,5 +20,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "contexts", "components"]
+  "include": ["src", "src/contexts", "components"]
 }
